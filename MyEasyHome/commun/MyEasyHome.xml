@@ -1,0 +1,10 @@
+<Context path="/MyEasyHome" reloadable="true"
+ docBase="C:\Users\souf\workspace\MyEasyHome"
+  workDir="C:\Users\souf\workspace\MyEasyHome\work" >
+  
+  <Resource name="jdbc_myeasyhomesql" auth="Container"
+type="javax.sql.DataSource" username="root" password=""
+driverClassName="com.mysql.jdbc.Driver"
+url="jdbc:mysql://localhost:3306/jdbc_myeasyhome"
+maxActive="20" maxIdle="10" validationQuery="SELECT 1"/>
+</Context>
